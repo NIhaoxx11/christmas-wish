@@ -76,10 +76,11 @@ def make_server(root, page=None):
 
 
 def main():
-    # 尽量让控制台按 UTF-8 输出中文（失败也不影响运行）
+    # 中文输出在个别终端下可能抛编码错误：这里只放宽错误处理，
+    # 保留终端自身的编码，Windows 控制台与 UTF-8 终端都能正常显示。
     for stream in (sys.stdout, sys.stderr):
         try:
-            stream.reconfigure(encoding="utf-8")
+            stream.reconfigure(errors="replace")
         except Exception:
             pass
 
