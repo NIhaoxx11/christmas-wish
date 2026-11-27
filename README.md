@@ -8,7 +8,7 @@
 
 - **仅鼠标 / 触控（免摄像头）**：直接打开 `圣诞星愿.html`。拖动旋转，点击背景或按空格切换粒子形态。
 - **完整手势版（需要摄像头）**：摄像头只能在安全来源下调用，所以请通过下方任一种本地或在线方式打开。
-- **网页链接**：https://nihaoxx11.github.io/christmas-wish。
+- **网页链接**：https://nihaoxx11.github.io/christmas-wish
 
 ## 本地运行
 
